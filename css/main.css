@@ -1,0 +1,196 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'Courier New', Courier, monospace, sans-serif;
+}
+.header-section{
+  display: flex;
+  justify-content: space-between;
+}
+.logo{
+  padding: 13px;
+
+}
+.logo a{
+  text-decoration: none;
+  text-transform: uppercase;
+  color: blue;
+  list-style: .6ch;
+  font-family: sans-serif;
+}
+.list{
+  display: flex;
+  justify-content: space-between;
+}
+.items{
+  list-style: none;
+  padding: 17px;
+}
+.items a{
+  text-decoration: none;
+  text-transform: uppercase;
+  color: blue;
+  letter-spacing: .6ch;
+  font-family: sans-serif;
+}
+.items a:hover{
+  color: black;
+}
+.hero-section{
+  background-color: rgb(117, 41, 16);
+  color: white;
+  padding: 50px 10px;
+  border: 1px solid black;
+
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+
+}
+.hero-section .img-box img {
+  height: 500px;
+  width: 600px;
+  align-items: right;
+  padding-right: 20px;
+  margin-bottom: 10px;
+  margin-right: 90px;
+  
+}
+.img-txt{
+  text-align: center;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 100px;
+  margin-left: 40px;
+}
+.img-txt .heading{
+  text-decoration: none;
+  font-family: sans-serif;
+  padding: 30px;
+}
+.img-txt button{
+  margin: 15px;
+  background-color: blanchedalmond;
+  color: black;
+  cursor: pointer;
+  letter-spacing: .5ch;
+  text-decoration: none;
+  font-size: 1.4rem;
+  border: 1px solid black;
+}
+.img-txt button:hover{
+  background-color: black;
+  color: white;
+}
+
+.services{
+  color: white;
+  border: 1px solid black;
+  padding: 5px 10px;
+  display: flex;
+  justify-content: center;
+}
+.services .ser-txt{
+  font-family: sans-serif;
+  font-size: 10px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  padding-top: 100px;
+  margin-right: 40px;
+
+}
+.services{
+  background: url(../img/pic2.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 700px;
+  border: 1px solid black;
+}
+.services .ser-txt{
+  font-size: 20px;
+  font-family: sans-serif;
+  text-decoration: none;
+  text-align: left;
+  color: black;
+  padding-right: 250px;
+ margin-right: 420px;
+ flex-direction: column;
+ padding-top: 100px;
+}
+.services .ser-txt button{
+  border: 1px solid black;
+  margin: 30px;
+  cursor: pointer;
+  padding: 10px 35px;
+  font-size: 0.9rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  color:cadetblue;
+  letter-spacing: .5ch;
+}
+.ser-txt button:hover{
+  color:red;
+}
+.different{
+  background-color: burlywood;
+  border: 1px solid black;
+  height: 50vh;
+  margin: 5% 10% 5% 10%;
+}
+.different .dif-txt{
+  text-align: center;
+  font-size: 20px;
+  text-decoration: none;
+  font-family: sans-serif;
+  padding: 20px;
+}
+.different .dif-txt button{
+  border: 1px solid black;
+  text-decoration: none;
+  letter-spacing: .5ch;
+  font-size: 1.4rem;
+  margin: 15px;
+  background-color: rgb(242, 248, 248);
+  cursor: progress;
+
+}
+.dif-txt button:hover{
+  background-color: rgb(31, 29, 30);
+  color: rgb(227, 227, 235);
+}
+.portfolio{
+  display: flex;
+  background-color: rgb(233, 139, 17);
+}
+.por-img img{
+  width: 500px;
+}
+.portfolio .por-txt{
+  font-size: 20px;
+  font-family: sans-serif;
+  text-decoration: none;
+  color: antiquewhite;
+  padding: 100px 50px;
+}
+.portfolio .por-txt button{
+  margin: 18px;
+  background-color: rgb(218, 228, 228);
+  color: black;
+  border: 1px solid black;
+  cursor: pointer;
+  text-decoration: none;
+  letter-spacing: .5ch;
+  font-size: 1.4rem;
+}
+.por-txt button:hover{
+  background-color: black;
+  color: white;
+}
